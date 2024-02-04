@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/blocks.css" />
 	<link rel="stylesheet" type="text/css" href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/modules.css" />
 	<link rel="stylesheet" type="text/css" href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/anim.css" />
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Главная</title>
 </head>
@@ -210,7 +211,7 @@
 				<div class="container-fluid">
 					<div class="main__inner">
 						<div class="main__wrap">
-							<div class="main__left left-anim _anim-items anim-no-hide">
+							<div class="main__left wow bounceInLeft">
 								<h1>
 									<strong>Дизайнерская</strong>
 									<br>
@@ -222,16 +223,16 @@
 								</a>
 							</div>
 							<div class="main__right">
-								<div class="main__price right-anim _anim-items anim-no-hide">
+								<div class="main__price wow bounceInRight">
 									<p>
-										по цене
-										<br>
-										<strong> от 449 000 руб.</strong>
+                                        по цене
+                                        <br>
+                                        <strong>от 449 000 руб.</strong>
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="main__cards left-anim _anim-items anim-no-hide">
+						<div class="main__cards wow bounceInLeft">
 							<div class="main-card">
 								<div class="main-card__text">
 									<strong>Начнем работы через 2 дня,</strong>  материал в наличии складе
@@ -242,7 +243,7 @@
 							</div>
 							<div class="main-card">
 								<div class="main-card__text">
-									<strong>Дизайн-проект 0 Р</strong> <span>78 000 Р</span>  при заказе отделки
+									<strong>Дизайн-проект 0 Р</strong> <span>78 000 Р</span> <br>  при заказе отделки
 								</div>
 								<div class="main-card__img">
 									<img src="img/main-card__img2.webp" alt="">
@@ -289,7 +290,7 @@
 						<h2>
 							<strong>Самый большой шоурум</strong>
 							<br>
-							среди компаний по отделке бань и саун в Краснодаре
+							<span class="text_color">среди компаний по отделке бань и саун в Краснодаре</span>
 						</h2>
 						<p>
 							Приходите <strong>посмотреть красоту кавказского дерева:</strong> выставочные образцы, печи и дымоходы, материалы для отделки, мебель. <strong>Рассчитаем цену</strong> отделки бани <strong>под ключ для 1 кв. м.</strong>
@@ -298,7 +299,7 @@
 							<img src="img/info-img.webp" alt="">
 							<img class="left-anim _anim-items anim-no-hide" src="img/info-img2.webp" alt="">
 						</div>
-						<div class="info__cards bottom-anim _anim-items anim-no-hide">
+						<div class="info__cards wow bounceInUp">
 							<div class="info-card">
 								<div class="info-card__text">
 									<strong>220 кв. м экспозиции </strong>
@@ -460,120 +461,122 @@
 						</a>
 					</div>
 				</div>
-				<div class="works__img2 right-anim _anim-items anim-no-hid">
+				<div class="works__img2 wow bounceInRight">
 					<img src="img/works-img2.webp" alt="">
 				</div>
-				<div class="works__img3 left-anim _anim-items anim-no-hide">
+				<div class="works__img3 wow bounceInLeft">
 					<img src="img/works-img3.webp" alt="">
 				</div>
 			</section>
-			<section class="calculation">
-				<div class="container-fluid">
-					<div class="calculation__inner">
-						<div class="calculation__img">
-							<img src="img/calculation-img.webp" alt="">
-							<img src="img/calculation-img2.webp" alt="">
+			<div class="section-group">
+				<section class="calculation">
+					<div class="container-fluid">
+						<div class="calculation__inner">
+							<div class="calculation__img">
+								<img src="img/calculation-img.webp" alt="">
+								<img src="img/calculation-img2.webp" alt="">
+							</div>
+							<div class="calculation__desc">
+								<p>Узнайте, сколько стоит отделка  вашей сауны, бани, хамама</p>
+								<a class="calculation__btn btn btn-green" href="">
+									<span>Сделать расчёт</span>
+								</a>
+							</div>
 						</div>
-						<div class="calculation__desc">
-							<p>Узнайте, сколько стоит отделка  вашей сауны, бани, хамама</p>
-							<a class="calculation__btn btn btn-green" href="">
-								<span>Сделать расчёт</span>
+					</div>
+				</section>
+				<section class="services">
+					<div class="container-fluid">
+						<div class="services__inner">
+							<h2>
+								<strong>ТОП 4 варианта</strong>
+								<br>
+								<span class="text_color"> внутренней отделки бани, сауны и парной</span> “под ключ”
+							</h2>
+							<div class="services__cards">
+								<div class="service-card">
+									<div class="service-card__img">
+										<img src="img/service-card__img.webp" alt="">
+									</div>
+									<div class="service-card__desc">
+										<div class="service-card__price">
+											<span>от 449 000 р.</span>
+										</div>
+										<div class="service-card__group">
+											<div class="service-card__text">
+												<strong>Cтандарт</strong>
+												<p>Отделка парной и бани недорого вагонкой</p>
+											</div>
+											<a class="service-card__btn btn btn-green" href="">
+												<span>Смотреть</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="service-card">
+									<div class="service-card__img">
+										<img src="img/service-card__img2.webp" alt="">
+									</div>
+									<div class="service-card__desc">
+										<div class="service-card__price">
+											<span>от 699 000 р.</span>
+										</div>
+										<div class="service-card__group">
+											<div class="service-card__text">
+												<strong>Комфорт</strong>
+												<p>Цена отделки бани и парной под ключ</p>
+											</div>
+											<a class="service-card__btn btn btn-green" href="">
+												<span>Смотреть</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="service-card">
+									<div class="service-card__img">
+										<img src="img/service-card__img3.webp" alt="">
+									</div>
+									<div class="service-card__desc">
+										<div class="service-card__price">
+											<span>от 1 199  000 р.</span>
+										</div>
+										<div class="service-card__group">
+											<div class="service-card__text">
+												<strong>Эксклюзив</strong>
+												<p>Эксклюзивная отделка бани и парной</p>
+											</div>
+											<a class="service-card__btn btn btn-green" href="">
+												<span>Смотреть</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="service-card">
+									<div class="service-card__img">
+										<img src="img/service-card__img4.webp" alt="">
+									</div>
+									<div class="service-card__desc">
+										<div class="service-card__price opacity"></div>
+										<div class="service-card__group">
+											<div class="service-card__text">
+												<strong>Индивидуально</strong>
+												<p>Отделка под ваш дизайн-проект</p>
+											</div>
+											<a class="service-card__btn btn btn-green" href="">
+												<span>Смотреть</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__info">Подберем наиболее подходящий вариант отделки</div>
+							<a class="services__btn btn btn-green" href="">
+								<span>Консультация</span>
 							</a>
 						</div>
 					</div>
-				</div>
-			</section>
-			<section class="services">
-				<div class="container-fluid">
-					<div class="services__inner">
-						<h2>
-							<strong>ТОП 4 варианта</strong>
-							<br>
-							<span class="text_color"> внутренней отделки бани, сауны и парной</span> “под ключ”
-						</h2>
-						<div class="services__cards">
-							<div class="service-card">
-								<div class="service-card__img">
-									<img src="img/service-card__img.webp" alt="">
-								</div>
-								<div class="service-card__desc">
-									<div class="service-card__price">
-										<span>от 449 000 р.</span>
-									</div>
-									<div class="service-card__group">
-										<div class="service-card__text">
-											<strong>Cтандарт</strong>
-											<p>Отделка парной и бани недорого вагонкой</p>
-										</div>
-										<a class="service-card__btn btn btn-green" href="">
-											<span>Смотреть</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="service-card">
-								<div class="service-card__img">
-									<img src="img/service-card__img2.webp" alt="">
-								</div>
-								<div class="service-card__desc">
-									<div class="service-card__price">
-										<span>от 699 000 р.</span>
-									</div>
-									<div class="service-card__group">
-										<div class="service-card__text">
-											<strong>Комфорт</strong>
-											<p>Цена отделки бани и парной под ключ</p>
-										</div>
-										<a class="service-card__btn btn btn-green" href="">
-											<span>Смотреть</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="service-card">
-								<div class="service-card__img">
-									<img src="img/service-card__img3.webp" alt="">
-								</div>
-								<div class="service-card__desc">
-									<div class="service-card__price">
-										<span>от 1 199  000 р.</span>
-									</div>
-									<div class="service-card__group">
-										<div class="service-card__text">
-											<strong>Эксклюзив</strong>
-											<p>Эксклюзивная отделка бани и парной</p>
-										</div>
-										<a class="service-card__btn btn btn-green" href="">
-											<span>Смотреть</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="service-card">
-								<div class="service-card__img">
-									<img src="img/service-card__img4.webp" alt="">
-								</div>
-								<div class="service-card__desc">
-									<div class="service-card__price opacity"></div>
-									<div class="service-card__group">
-										<div class="service-card__text">
-											<strong>Индивидуально</strong>
-											<p>Отделка под ваш дизайн-проект</p>
-										</div>
-										<a class="service-card__btn btn btn-green" href="">
-											<span>Смотреть</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services__info">Подберем наиболее подходящий вариант отделки</div>
-						<a class="services__btn btn btn-green" href="">
-							<span>Консультация</span>
-						</a>
-					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 			<section class="services2">
 				<div class="container-fluid">
 					<div class="services2__inner">
@@ -632,10 +635,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="services2__img left-anim _anim-items anim-no-hid">
+				<div class="services2__img wow bounceInLeft">
 					<img src="img/services2-img.webp" alt="">
 				</div>
-				<div class="services2__img2 right-anim _anim-items anim-no-hid">
+				<div class="services2__img2 wow bounceInRight">
 					<img src="img/services2-img2.webp" alt="">
 				</div>
 			</section>
@@ -653,7 +656,7 @@
 							</div>
 						</div>
 						<div class="advantages__right">
-							<div class="advantages__items left-anim _anim-items anim-no-hid">
+							<div class="advantages__items wow bounceInLeft">
 								<div class="advantages__item">
 									<div class="advantages__item-top">
 										<div class="advantages__item-img">
@@ -730,7 +733,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="advantages__img left-anim _anim-items anim-no-hid">
+				<div class="advantages__img wow bounceInLeft">
 					<img src="img/advantages-img.webp" alt="">
 				</div>
 			</section>
@@ -740,7 +743,7 @@
 						<h2>
 							Реализуем проекты <span class="text_color">любой сложности</span>
 						</h2>
-						<div class="services3__items left-anim _anim-items anim-no-hid">
+						<div class="services3__items wow bounceInLeft">
 							<div class="services3__item">
 								<div class="services3__item-top">
 									<div class="services3__item-img">
@@ -807,7 +810,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="services3__img right-anim _anim-items anim-no-hid">
+				<div class="services3__img wow bounceInRight">
 					<img src="img/services3-img5.webp" alt="">
 				</div>
 			</section>
@@ -815,7 +818,7 @@
 				<div class="container-fluid">
 					<div class="materials__inner">
 						<h2>Комплекс решений <span class="text_color">для обустройства бань и саун</span></h2>
-						<div class="materials__cards left-anim _anim-items anim-no-hid">
+						<div class="materials__cards wow bounceInLeft">
 							<div class="material-card">
 								<div class="material-card__img">
 									<img src="img/materials-img.webp" alt="">
@@ -879,7 +882,7 @@
 				<div class="container-fluid">
 					<div class="services4__inner">
 						<h2>Возможно вас <span class="text_color">заинтересуют услуги</span></h2>
-						<div class="materials__cards left-anim _anim-items anim-no-hid">
+						<div class="materials__cards wow bounceInLeft">
 							<div class="material-card">
 								<div class="material-card__img">
 									<img src="img/materials-img6.webp" alt="">
@@ -930,10 +933,10 @@
 						<div class="form">
 							<div class="form-head">Заявка на расчет</div>
 							<form method="POST" class="form_block">
-								<div class="form-field form-group">
+								<div class="form-field form-group hideLabels">
 									<input type="text" name="name1" class="form-control" placeholder="Ваше имя"/>
 								</div>
-								<div class="form-field form-group">
+								<div class="form-field form-group hideLabels">
 									<input type="tel" name="phone" class="form-control required  inp" placeholder="Ваш телефон"/>
 								</div>
 								<button class="form-btn btn btn-green" type="submit" name="send">
@@ -1094,6 +1097,7 @@
 	</div>
 	<script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/base.min.js"></script>
 <script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/validate.min.js"></script>
+<script src="js/wow.js"></script>
 <script src="js/main.min.js"></script>
 
 
